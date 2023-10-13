@@ -18,29 +18,61 @@ p{
     justify-content: end;
     position: sticky;
     border-bottom: 1.5px solid black;
+    width: 90%;
+    margin: 0 auto;
 }
 .linkStyleOne, .linkStyleTwo {
-    margin-right: 40px;
+    margin-left: 20px;
     text-align: center;
     padding: 10px;
     text-decoration: none;
 }
 .linkStyleOne {
     color: black;
+    font-weight: 500;
+    background-color: rgb(115, 255, 204);
+    border-radius: 10px;
 }
 .linkStyleTwo{
-    color: blue;
+    color: rgb(78, 78, 78);
+}
+.linkStyleOne:hover, .linkStyleTwo:hover {
+    color: black;
+    font-weight: 500;
+
+}
+.pictureDiv{
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+}
+.introDiv{
+    width: 60%;
+    margin: 30px 0 30px 60px;
 }
 
+.pictureDiv, .intro{
+    width: 90%;
+}
 
 /* About Me page */
 
 #me{
-    width: 30%;
+    width: 40%;
     height: auto;
+    border-radius: 20px;
 }
-
-
+#mainBackground{
+    background-image: url(/resources/Images/marble.png); 
+    background-size: cover;
+}
+.spaceBottom{
+    margin-bottom: 7px;
+}
+#Jordan{
+    margin-bottom: 7px;
+    font-size: 40px;
+}
 
 /* Media Queries  */
 
