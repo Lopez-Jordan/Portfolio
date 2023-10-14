@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Montserrat;
 }
+*::selection {
+    background-color: rgb(141, 255, 213); 
+}
 h1, h2, h3, h4, h5, h6{
     font-weight: 500;
     letter-spacing: 1px;
@@ -10,7 +13,12 @@ h1, h2, h3, h4, h5, h6{
 p{
     line-height: 24px;
     letter-spacing: 0.2px;
+    font-weight: 500;
 }
+a{
+    width: fit-content;
+}
+
 /* Navbar Styles */
 .navbar {
     padding: 20px 0 20px 20px;
@@ -35,24 +43,21 @@ p{
 }
 .linkStyleTwo{
     color: rgb(78, 78, 78);
+    font-weight: 500;
 }
 .linkStyleOne:hover, .linkStyleTwo:hover {
     color: black;
-    font-weight: 500;
-
 }
 .pictureDiv{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin: 0 auto;
+    width: 80%;
 }
 .introDiv{
-    width: 60%;
-    margin: 30px 0 30px 60px;
-}
-
-.pictureDiv, .intro{
-    width: 90%;
+    width: 50%;
+    margin: 30px 0 10px 60px;
+    padding: 20px; 
 }
 
 /* About Me page */
@@ -61,6 +66,7 @@ p{
     width: 40%;
     height: auto;
     border-radius: 20px;
+    box-shadow: 7px 7px 5px #404040;
 }
 #mainBackground{
     background-image: url(/resources/Images/marble.png); 
@@ -73,6 +79,22 @@ p{
     margin-bottom: 7px;
     font-size: 40px;
 }
+.boxDiv{
+    background-color: #b5ffe4;
+    height: 35%;
+    width: 45%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    z-index: -1;
+    border-radius: 20px;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 /* Media Queries  */
 
@@ -84,5 +106,31 @@ p{
     .linkStyleOne, .linkStyleTwo {
         margin: 0 10px 0 10px;
     }
-
+    #Jordan{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .introDiv{
+        width: 80%;
+        margin: 10px 
+    }
+    #me{
+        width: 70%;
+    }
+    .pictureDiv{
+        flex-direction: column-reverse;
+    }
+    .icons{
+        margin-top: 40px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .icon{
+        margin-right: 20px;
+    }
+    .boxDiv{
+        box-shadow: none;
+    }
 }
