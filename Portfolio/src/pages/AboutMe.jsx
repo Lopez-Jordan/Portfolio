@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const iconStyle = {
     fontSize: '40px',
     color: 'white',
     transition: 'color 0.7s ease',
-    cursor: 'pointer', // Show cursor pointer on hover
+    cursor: 'pointer',
     backgroundColor: 'black',
     padding: '5px',
     borderRadius: '8px',
@@ -20,11 +20,11 @@ export default function AboutMe() {
     const [hoveredIcon, setHoveredIcon] = useState(null);
     return (
         <>
-            <div className="introDiv white">
+            <div className="introDiv">
                 <p className="spaceBottom">Hello!</p>
                 <h1 id="Jordan">I'm Jordan Lopez</h1>
                 <p>A dedicated, adaptable business Consultant and Web Developer with a strong background in Mathematics, Economics, and
-                    industry-standard Full Stack technologies. This website was made with React and vanilla CSS!
+                    industry-standard Full Stack technologies. This website was made with React and vanilla CSS--no templates!
                     If you are interested in my work, click on <span style={{ fontWeight: '600' }}>Projects</span> to see all of my
                     web-dev abilities or <span style={{ fontWeight: '600' }}>Resume</span> to get a complete picture.
                 </p>
@@ -33,10 +33,10 @@ export default function AboutMe() {
             </div>
             <div className="pictureDiv">
                 <div className="icons">
-                    <a className="icon" href="https://www.instagram.com/jordan___lopez/">
-                        <FaInstagram
-                            style={hoveredIcon === 'Instagram' ? { ...iconStyle, ...iconHoverStyle } : iconStyle}
-                            onMouseEnter={() => setHoveredIcon('Instagram')}
+                    <a className="icon" href="mailto:jordanlopezemail@gmail.com">
+                        <FaEnvelope
+                            style={hoveredIcon === 'Mail' ? { ...iconStyle, ...iconHoverStyle } : iconStyle}
+                            onMouseEnter={() => setHoveredIcon('Mail')}
                             onMouseLeave={() => setHoveredIcon(null)}
                         />
                     </a>

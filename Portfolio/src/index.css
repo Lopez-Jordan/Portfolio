@@ -3,6 +3,15 @@
     padding: 0;
     font-family: Montserrat;
 }
+
+body{
+    background: linear-gradient(112deg, rgb(224, 255, 244), white);
+    height: 100vh;
+    width: auto;
+}
+
+
+
 *::selection {
     background-color: rgb(141, 255, 213); 
 }
@@ -58,6 +67,7 @@ a{
     width: 50%;
     margin: 30px 0 10px 60px;
     padding: 20px; 
+    background-color: white;
 }
 
 /* About Me page */
@@ -80,7 +90,7 @@ a{
     font-size: 40px;
 }
 .boxDiv{
-    background-color: #b5ffe4;
+    background-color: rgb(110, 228, 185);
     height: 35%;
     width: 45%;
     position: absolute;
@@ -88,12 +98,59 @@ a{
     top: 30%;
     z-index: -1;
     border-radius: 20px;
-
 }
 .icons{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+/* Project Page */
+#projectDiv{
+    margin-bottom: 30px;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+
+}
+.cardDiv{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 5px 5px 5px #404040;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.cardImage{
+    width: 100%;
+    border-radius: 6px;
+}
+.cardTitle{
+    padding: 5px;
+    background-color: rgb(118, 245, 199);
+    margin: 5px;
+    font-weight: bolder;
+    border-radius: 6px;
+}
+.button{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 
 /* Media Queries  */
@@ -121,6 +178,7 @@ a{
     }
     .pictureDiv{
         flex-direction: column-reverse;
+        align-items: center;
     }
     .icons{
         margin-top: 40px;
