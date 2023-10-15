@@ -3,8 +3,8 @@ export default function Projects() {
     return (
         <>
             <div className="introDiv" id="projectDiv">
-                <h2 id="Jordan">Check out my Projects!</h2>
-                <p>
+                <h2 id="Jordan">Check out my projects!</h2>
+                <p className='text'>
                     I've done everything from Full Stack applications, Data base management, Financial management dashboards,
                     weather reports and more!
                 </p>
