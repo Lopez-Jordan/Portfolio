@@ -5,7 +5,7 @@ export default function Projects() {
             <div className="introDiv" id="projectDiv">
                 <h2 id="Jordan">Check out my projects!</h2>
                 <p className='text'>
-                    I've done everything from Full Stack applications, Data base management, Financial management dashboards,
+                    I've done everything from full stack applications, data base management, financial dashboards,
                     weather reports and more!
                 </p>
             </div>
@@ -23,7 +23,7 @@ export default function Projects() {
                     imagePath="/crypto.png"
                 />
                 <Card
-                    name="SQL + Manager"
+                    name="SQL Manager"
                     deployed="https://github.com/Lopez-Jordan/Employee-Tracker"
                     repo="https://github.com/Lopez-Jordan/Employee-Tracker"
                     imagePath="/employeeTracker.png"
