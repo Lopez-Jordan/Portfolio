@@ -11,6 +11,12 @@ export default function Projects() {
             </div>
             <div className='cardContainer'>
                 <Card
+                    name="Surf Report"
+                    deployed="https://floating-shelf-66988-88c62d989e6d.herokuapp.com/"
+                    repo="https://github.com/Lopez-Jordan/SurfReport"
+                    imagePath="/SurfReport.png"
+                />
+                <Card
                     name="forumZ"
                     deployed="https://forumz-090c0b5b4bff.herokuapp.com/"
                     repo="https://github.com/Lopez-Jordan/forumZ"

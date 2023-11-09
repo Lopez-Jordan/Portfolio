@@ -32,10 +32,10 @@ export default function Resume() {
                 <button className="resume">            
                     <a
 
-                    href="/JordanLopezResumePDF.pdf"
+                    href="/JordanLopezResume.pdf"
                     download="Resume.pdf"
                     >
-                    Resume
+                    Download Resume
                     </a>
                 </button>
             </div>
