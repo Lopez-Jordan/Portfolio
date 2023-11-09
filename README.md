@@ -1,8 +1,7 @@
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 # Jordan's Portfolio
-
-Link to live site:  https://snazzy-travesseiro-fba125.netlify.app
+[explore the site here!](https://snazzy-travesseiro-fba125.netlify.app)
 
 <img src="./public/screenshotNew.png" height="400px">
 
