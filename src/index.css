@@ -67,6 +67,8 @@ a{
     background-color: white;
     box-shadow: 4px 4px 0 rgb(79, 79, 79);
     animation: fadeInLeft 1.5s ease; 
+    margin-top: 30px;
+
 }
 #me{
     width: 40%;
@@ -107,7 +109,7 @@ a{
 
 /* Project Page */
 .bgColorDiv{
-    background: linear-gradient(to bottom right, white, rgb(173, 248, 221));
+    background: linear-gradient(to bottom right, rgb(173, 248, 221), white);
     height: 100vh;
     padding-top: 30px;
 }
@@ -180,6 +182,10 @@ a{
 .skillTitle{
     margin-bottom: 10px;
     font-weight: bolder;
+    background-color: rgb(118, 245, 199);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 6px;
 }
 ul{
     margin-left: 10px;
