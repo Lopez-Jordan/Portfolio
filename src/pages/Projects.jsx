@@ -12,6 +12,12 @@ export default function Projects() {
                 </div>
                 <div className='cardContainer'>
                     <Card
+                        name="Admission GPT"
+                        deployed="https://infinite-thicket-94821-c40c39ef6cfc.herokuapp.com/"
+                        repo="https://github.com/Lopez-Jordan/UC-Chatbot"
+                        imagePath="/home.png"
+                    />
+                    <Card
                         name="Surf Report"
                         deployed="https://floating-shelf-66988-88c62d989e6d.herokuapp.com/"
                         repo="https://github.com/Lopez-Jordan/SurfReport"
