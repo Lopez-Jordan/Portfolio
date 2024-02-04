@@ -12,8 +12,8 @@ export default function Projects() {
                 </div>
                 <div className='cardContainer'>
                     <Card
-                        name="Admission GPT"
-                        deployed="https://infinite-thicket-94821-c40c39ef6cfc.herokuapp.com/"
+                        name="Admissions AI"
+                        deployed="www.ucadmissionsai.com"
                         repo="https://github.com/Lopez-Jordan/UC-Chatbot"
                         imagePath="/home.png"
                     />
